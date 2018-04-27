@@ -13,7 +13,7 @@ This dataset has been designed to evaluate machine reading models over a set of 
 | 1       | Detection of an aspect in a review.                                                  | Is sleep quality mentioned in this review ?                             |
 | 2       | Prediction of the customer general satisfaction.                                     | Is the client satisfy by this hotel ?                                   |
 | 3       | Prediction of the global trend of an aspect in a given review.                       | Is the client satisfy with the cleanliness of the hotel ?               |
-| 4       | Prediction of weather the rating of a given aspect is above or under a given value.  | Is the rating of location under 4 ?                                     |
+| 4       | Prediction of whether the rating of a given aspect is above or under a given value.  | Is the rating of location under 4 ?                                     |
 | 5       | Prediction of the exact rating of an aspect in a review.                             | What is the rating of the aspect Value in this review ?                 |
 | 6       | Prediction of the list of all the positive/negative aspects mentioned in the review. | Can you give me a list of all the positive aspects in this review ?     |
 | 7.0     | Comparison between aspects.                                                          | Is the sleep quality better than the service in this hotel ?            |
