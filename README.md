@@ -58,7 +58,7 @@ For each document of the dataset, we display a **reviewID** that corresponds to 
 
 You need to retrieve this review from the original dataset [available here](http://times.cs.uiuc.edu/~wang296/Data/LARA/TripAdvisor/TripAdvisorJson.tar.bz2) and then to replace this reviewID by the text you will find in the field *Content* of the original data.
 
-## References:
+## References
 
 Hongning Wang, Yue Lu and ChengXiang Zhai. [*Latent aspect rating analysis without aspect keyword supervision.*](http://times.cs.uiuc.edu/~wang296/paper/p618.pdf) The 17th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'2011), P618-626, 2011. 
 
