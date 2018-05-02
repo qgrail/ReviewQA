@@ -1,6 +1,6 @@
 # ReviewQA: a relational aspect-based opinion reading dataset
 
-ReciewQA is relational aspect-based opinion reading dataset released by [NAVER LABS Europe](http://www.europe.naverlabs.com/).
+ReviewQA is relational aspect-based opinion reading dataset released by [NAVER LABS Europe](http://www.europe.naverlabs.com/).
 
 It contains more than 500.000 natural language questions over 100.000 documents.
 
