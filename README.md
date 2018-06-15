@@ -27,7 +27,7 @@ This dataset has been designed to evaluate machine reading models over a set of 
 
 ## Results
 
-| Task / Model | logReg | LSTM | MemN2N | Deep Proj reader| 
+| Task / Model | logReg | LSTM | [MemN2N](https://arxiv.org/abs/1503.08895) | Deep Proj reader| 
 |--------------|--------|------|--------|-----------------|
 Overall        | 46.7   | 19.5 | 20.7   | **60.4**        |
 1              | 51.0   | 20.0 | 23.2   | **82.3**        | 
@@ -82,3 +82,6 @@ You need to retrieve this review from the original dataset [available here](http
 Hongning Wang, Yue Lu and ChengXiang Zhai. [*Latent aspect rating analysis without aspect keyword supervision.*](http://times.cs.uiuc.edu/~wang296/paper/p618.pdf) The 17th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'2011), P618-626, 2011. 
 
 Hongning Wang, Yue Lu and Chengxiang Zhai. [*Latent aspect rating analysis on review text data: a rating regression approach.*](https://dl.acm.org/citation.cfm?id=1835903) The 16th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'2010), p783-792, 2010. 
+
+Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus. [*End-To-End Memory Networks*](https://arxiv.org/abs/1503.08895)
+
