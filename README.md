@@ -15,18 +15,31 @@ This dataset has been designed to evaluate machine reading models over a set of 
 
 | TaskID | Description                                                                          | Examples                                                                |
 | ------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------|
-| 1       | Detection of an aspect in a review.                                                  | Is sleep quality mentioned in this review ?                             |
-| 2       | Prediction of the customer general satisfaction.                                     | Is the client satisfy by this hotel ?                                   |
-| 3       | Prediction of the global trend of an aspect in a given review.                       | Is the client satisfy with the cleanliness of the hotel ?               |
-| 4       | Prediction of whether the rating of a given aspect is above or under a given value.  | Is the rating of location under 4 ?                                     |
-| 5       | Prediction of the exact rating of an aspect in a review.                             | What is the rating of the aspect Value in this review ?                 |
-| 6       | Prediction of the list of all the positive/negative aspects mentioned in the review. | Can you give me a list of all the positive aspects in this review ?     |
-| 7.0     | Comparison between aspects.                                                          | Is the sleep quality better than the service in this hotel ?            |
-| 7.1     | Comparison between aspects.                                                          | Which one of these two aspects, service, location has the best rating ? |
-| 8       | Prediction of the strengths and weaknesses in a review.                              | What is the best aspect rated in this comment ?                         |
+| 1       | Detection of an aspect in a review.                                                  | Is sleep quality mentioned in this review?                             |
+| 2       | Prediction of the customer general satisfaction.                                     | Is the client satisfied by this hotel?                                   |
+| 3       | Prediction of the global trend of an aspect in a given review.                       | Is the client satisfied with the cleanliness of the hotel?               |
+| 4       | Prediction of whether the rating of a given aspect is above or under a given value.  | Is the rating of location under 4?                                     |
+| 5       | Prediction of the exact rating of an aspect in a review.                             | What is the rating of the aspect Value in this review?                 |
+| 6       | Prediction of the list of all the positive/negative aspects mentioned in the review. | Can you give me a list of all the positive aspects in this review?     |
+| 7.0     | Comparison between aspects.                                                          | Is the sleep quality better than the service in this hotel?            |
+| 7.1     | Comparison between aspects.                                                          | Which one of these two aspects, service, location has the best rating? |
+| 8       | Prediction of the strengths and weaknesses in a review.                              | What is the best aspect rated in this comment?                         |
 
 ## Results
 
+| Task / Model | logReg | LSTM | MemN2N | Deep Proj reader| 
+|--------------|--------|------|--------|-----------------|
+Overall        | 46.7   | 19.5 | 20.7   | **60.4**        |
+1              | 51.0   | 20.0 | 23.2   | **82.3**        | 
+2              | 80.6   | 65.3 | 70.3   | **90.9**        |
+3              | 72.2   | 58.1 | 61.4   | **85.9**        |
+4              | 58.4   | 28.1 | 28.0   | **91.3**        |
+5              | 37.8   | 6.1  | 5.2    | **57.1**        |
+6              | 16.0   | 8.3  | 10.1   | **39.1**        |
+7              | 57.2   | 12.8 | 13.2   | **68.8**        |
+8              | 36.8   | 18.0 | 17.8   | **41.3**        |
+
+This table presents the accuracy (%) of 4 models on ReviewQA.
 
 ## Format of the data
 ```json
