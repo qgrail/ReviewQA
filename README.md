@@ -1,12 +1,15 @@
 # ReviewQA: a relational aspect-based opinion reading dataset
 
-Authors: [Quentin Grail](www.linkedin.com/in/quentin-grail) and [Julien Perez](http://www.europe.naverlabs.com/NAVER-LABS-Europe/People/Julien-Perez)
+Authors: [Quentin Grail](https://www.linkedin.com/in/quentin-grail) and [Julien Perez](http://www.europe.naverlabs.com/NAVER-LABS-Europe/People/Julien-Perez)
 
 ReviewQA is relational aspect-based opinion reading dataset released by [NAVER LABS Europe](http://www.europe.naverlabs.com/).
 
 It contains more than 500.000 natural language questions over 100.000 documents. The data are availabe [here](https://github.com/qgrail/ReviewQA/tree/master/data).
 
 This dataset has been designed to evaluate machine reading models over a set of challenging relational tasks.
+
+## Presentation of the dataset
+
 
 ## Summary of the tasks
 
@@ -22,6 +25,7 @@ This dataset has been designed to evaluate machine reading models over a set of 
 | 7.1     | Comparison between aspects.                                                          | Which one of these two aspects, service, location has the best rating ? |
 | 8       | Prediction of the strengths and weaknesses in a review.                              | What is the best aspect rated in this comment ?                         |
 
+## Results
 
 
 ## Format of the data
@@ -56,7 +60,7 @@ This dataset has been designed to evaluate machine reading models over a set of 
 **trad:** False if this is one of the crowdsourced questions and True if this question comes from a backtranslated rephrasing.
 
 ## How to reconstruct the dataset
-For each document of the dataset, we display a **reviewID** that corresponds to a unique ID in the original data.
+For each document of the dataset, we provide a **reviewID** that corresponds to a unique ID in the original data.
 
 You need to retrieve this review from the original dataset [available here](http://times.cs.uiuc.edu/~wang296/Data/LARA/TripAdvisor/TripAdvisorJson.tar.bz2) and then to replace this reviewID by the text you will find in the field *Content* of the original data.
 
