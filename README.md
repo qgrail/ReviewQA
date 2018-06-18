@@ -8,8 +8,6 @@ It contains more than 500.000 natural language questions over 100.000 documents.
 
 This dataset has been designed to evaluate machine reading models over a set of challenging relational tasks.
 
-## Presentation of the dataset
-
 
 ## Summary of the tasks
 
