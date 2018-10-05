@@ -73,7 +73,7 @@ This table presents the accuracy (%) of 4 models on ReviewQA.
 ## How to reconstruct the dataset
 For each document of the dataset, we provide a **reviewID** that corresponds to a unique ID in the original data.
 
-You need to retrieve this review from the original dataset [available here](http://times.cs.uiuc.edu/~wang296/Data/LARA/TripAdvisor/TripAdvisorJson.tar.bz2) and then to replace this reviewID by the text you will find in the field *Content* of the original data.
+You need to retrieve this review from the original dataset [available here](http://www.cs.virginia.edu/~hw5x/Data/LARA/TripAdvisor/TripAdvisorJson.tar.bz2) and then to replace this reviewID by the text you will find in the field *Content* of the original data.
 
 ## References
 
